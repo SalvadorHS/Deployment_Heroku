@@ -1,1 +1,1 @@
-# Deployment of ML using Flask in Heroku and AWS (EC2) platforms
+# ML Deployment using Flask and StreamLit in Heroku platform
