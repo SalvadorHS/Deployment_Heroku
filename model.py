@@ -66,7 +66,7 @@ plt.scatter(kNN_outlier_values['ROA'], kNN_outlier_values['Debt'], edgecolors = 
 plt.show()
 
 ### Feature Engineering
-rom sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler
+from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler
 
 std_scaler = StandardScaler()
 mmx_scaler = MinMaxScaler()
@@ -130,12 +130,14 @@ timer(start_time) # timing ends here for "start_time" variable
 
 ### Get the best tunning parameters
 rf_search.best_params_
+
 ### Specify the optimal model
 optimal_model = RandomForestRegressor(n_estimators      = 118,
                                       min_samples_split = 2,
                                       min_samples_leaf  = 4,
                                       max_features      = 'auto',
                                       max_depth         = 25).fit(X_train, y_train)
+
 ### Evaluate Performance
 import time
 start_time = time.time()
@@ -150,8 +152,6 @@ print('Processing time: %s seconds' % round((time.time() - start_time), 4))
 
 ### Deployment File
 import pickle
-#Open a file, where you want to store data
 file = open("random_forest_diversification.pkl", 'wb')
-#Dump information to that file
 pickle.dump(optimal_model, file)
 
