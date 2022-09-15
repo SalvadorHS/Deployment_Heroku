@@ -8,13 +8,9 @@ Created on Wed Sep 14 2022
 import numpy as np
 import pickle
 import pandas as pd
-#from flasgger import Swagger
 import streamlit as st 
 
 from PIL import Image
-
-#app=Flask(__name__)
-#Swagger(app)
 
 pickle_in  = open("random_forest_diversification.pkl","rb")
 classifier = pickle.load(pickle_in)
