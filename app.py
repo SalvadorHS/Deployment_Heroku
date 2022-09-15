@@ -5,9 +5,7 @@ Created on Wed Sep 14 2022
 @author: Salvador HS
 """
 
-import numpy as np
 import pickle
-import pandas as pd
 import streamlit as st 
 
 from PIL import Image
