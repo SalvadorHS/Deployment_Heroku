@@ -1,5 +1,5 @@
 # ML Deployment using Flask and StreamLit in Heroku platform
 
 
-- Web using StreamLit: https://mlmodeltest.herokuapp.com/
-- Web using Flask: https://mlmodeltest2.herokuapp.com/
+- ML Deploy using StreamLit: https://mlmodeltest.herokuapp.com/
+- ML Deploy using Flask: https://mlmodeltest2.herokuapp.com/
