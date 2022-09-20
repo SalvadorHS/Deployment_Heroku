@@ -1,4 +1,4 @@
-# ML Deployment using Flask and StreamLit in Heroku platform
+# ML Deployment in a Docker Container using Heroku platform
 
 
 - ML Deploy using StreamLit: https://mlmodeltest.herokuapp.com/
