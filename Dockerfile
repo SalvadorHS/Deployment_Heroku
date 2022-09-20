@@ -10,7 +10,7 @@ RUN pip install pandas
 RUN pip install scikit_learn
 RUN pip install gunicorn
 RUN pip install Jinja2
-RUN pip install --ignore-installed streamlit
+RUN pip install streamlit
 
 EXPOSE $PORT
 CMD gunicorn --workers=4 --bind 0.0.0.0:$PORT app:app
