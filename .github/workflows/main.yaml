@@ -30,6 +30,5 @@ jobs:
           # Additional options of docker build command.
           docker_options: "--no-cache"
 
-          # (Optional, default: "web")
           # Process type for which you want the docker container to be uploaded.
           process_type: web
