@@ -1,4 +1,4 @@
-# ML Deployment in a Docker Container using Heroku platform
+# ML Deployment in Docker Containers using Heroku platform
 
 
 - ML Deploy using StreamLit: https://mlmodeltest.herokuapp.com/
