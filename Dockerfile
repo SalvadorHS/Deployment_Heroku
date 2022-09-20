@@ -4,7 +4,6 @@ WORKDIR /home/Flask_app
 
 RUN pip install --upgrade pip
 RUN pip install flasgger
-RUN pip install matplotlib
 RUN pip install flask
 RUN pip install numpy
 RUN pip install pandas
