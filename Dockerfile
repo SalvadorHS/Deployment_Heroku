@@ -1,4 +1,4 @@
-FROM continuumio/anaconda3
+FROM python:3.7
 COPY . /home/Streamlit_app
 WORKDIR /home/Streamlit_app
 
