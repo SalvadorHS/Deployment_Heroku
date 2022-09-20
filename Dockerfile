@@ -1,4 +1,4 @@
-FROM continuumio/anaconda3
+FROM python:3.7
 COPY . /home/Flask_app
 WORKDIR /home/Flask_app
 
