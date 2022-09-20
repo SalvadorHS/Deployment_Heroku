@@ -27,7 +27,7 @@ jobs:
           # Dockerfile name.
           dockerfile_name: Dockerfile
 
-          # Additional options of docker build command.
+          # Additional options of docker build command
           docker_options: "--no-cache"
 
           # (Optional, default: "web")
