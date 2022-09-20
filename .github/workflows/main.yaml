@@ -1,24 +1,21 @@
-# Your workflow name.
 name: Deploy to heroku.
-
-# Run workflow on every push to main branch.
 on:
   push:
-    branches: [main]
+    branches: [Main]
 
-# Your workflows jobs.
+# Workflows jobs.
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Check-out your repository.
+      # Check-out repository.
       - name: Checkout
         uses: actions/checkout@v2
         
       - name: ML Docker Deployment in Heroku. 
         uses: gonuit/heroku-docker-deploy@v1.3.3 # GitHub action name 
         with:
-          # Below you must provide variables for your Heroku app.
+          # Variables for web Heroku app.
 
           email: ${{ secrets.HEROKU_EMAIL }}
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
