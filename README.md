@@ -1,8 +1,23 @@
-# ML Deployment in Docker Containers using Heroku platform
+# ML Deployment in Docker Containers using Heroku platform 
+
+## Project Description 📑
+The main goal is to deploy the optimal ML Model from Corporate Diversification Project in simple ML based websites with Flask and StreamLite in Docker Containers using the Heroku platform service. 
+
+## Main Branch (StreamLite)
+- Configuration Files
+  - Dockerfile
+  - Procfile
+  - yml 
+  - sh
+  
+## Flask Branch 
+- Configuration Files
+  - .github/workflows/main.yaml
+  - Dockerfile
+  - Procfile
 
 ## Built with 🛠️
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
 <code><img height="30" src="https://symbols.getvecta.com/stencil_80/56_flask.3a79b5a056.jpg"></code>
 <code><img height="30" src="https://cdn.iconscout.com/icon/free/png-256/heroku-225989.png"></code>
@@ -12,6 +27,9 @@
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png"></code>
 </code>
 
-## Deployment 🚀
+## Deployments 🚀
 - ML Deploy using StreamLit: https://mlmodeltest.herokuapp.com/
 - ML Deploy using Flask: https://mlmodeltest2.herokuapp.com/apidocs
+
+## Contact 📧
+salvadorhs1984@gmail.com 
