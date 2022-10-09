@@ -3,14 +3,14 @@
 ## Project Description 📑
 The main goal is to deploy the optimal ML Model from Corporate Diversification Project in simple ML based websites with Flask and StreamLite in Docker Containers using the Heroku platform service. 
 
-## Main Branch (StreamLite)
+## Main Branch (StreamLite)⚙️
 - Configuration Files
   - Dockerfile
   - Procfile
   - yml 
   - sh
   
-## Flask Branch 
+## Flask Branch⚙️
 - Configuration Files
   - .github/workflows/main.yaml
   - Dockerfile
